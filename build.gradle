@@ -21,6 +21,7 @@ dependencies{
 	def springVersion = "4.2.0.RELEASE"
 	
     compile ("joda-time:joda-time:2.2", 'org.mybatis:mybatis:3.3.0')
+    compile group: 'com.google.guava', name: 'guava', version: '20.0'
      compile("mysql:mysql-connector-java:5.1.36")  
       // Spring依赖  
     compile("org.springframework:spring-aop:$springVersion",  
